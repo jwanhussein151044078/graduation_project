@@ -1,0 +1,9 @@
+MPU6050.cpp:8:1:MPU6050::MPU6050()	16	static
+MPU6050.cpp:15:6:bool MPU6050::init()	40	static
+MPU6050.cpp:38:6:void MPU6050::reset()	40	static
+MPU6050.cpp:47:6:bool MPU6050::MPu_sleep(bool)	40	static
+MPU6050.cpp:56:6:void MPU6050::set_i2c(I2C_HandleTypeDef*)	16	static
+MPU6050.cpp:61:6:void MPU6050::set_GoffsetZ()	32	static
+MPU6050.cpp:71:6:bool MPU6050::MPU_getGyroX(float*)	40	static
+MPU6050.cpp:81:6:bool MPU6050::MPU_getGyroY(float*)	40	static
+MPU6050.cpp:91:6:bool MPU6050::MPU_getGyroZ(float*)	40	static

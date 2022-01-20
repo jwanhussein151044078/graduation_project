@@ -1,0 +1,34 @@
+DCMotor.cpp:12:1:DCMotor::DCMotor(volatile uint32_t&)	16	static
+DCMotor.cpp:19:6:void DCMotor::setGPIO(GPIO_TypeDef*, GPIO_TypeDef*, uint16_t, uint16_t)	24	static
+DCMotor.cpp:26:6:void DCMotor::setCCRx(volatile uint32_t&)	16	static
+DCMotor.cpp:31:6:void DCMotor::moveForword(uint8_t)	16	static
+DCMotor.cpp:42:6:void DCMotor::moveBackword(uint8_t)	16	static
+DCMotor.cpp:53:6:void DCMotor::stop()	16	static
+DCMotor.cpp:62:6:void DCMotor::togglepin()	16	static
+DCMotor.cpp:66:6:void DCMotor::resetpin()	16	static
+DCMotor.cpp:72:6:void DCMotor::setSpeed(uint8_t)	16	static
+DCMotor.cpp:79:6:void DCMotor::speed_up(uint8_t)	24	static
+DCMotor.cpp:89:6:void DCMotor::speed_down(uint8_t)	24	static
+DCMotor.cpp:98:9:uint8_t DCMotor::getSpeed()	16	static
+DCMotor.cpp:103:1:DCSystem::DCSystem(DCMotor&, DCMotor&)	24	static
+DCMotor.cpp:107:6:void DCSystem::setCCRx(volatile uint32_t&, volatile uint32_t&)	24	static
+DCMotor.cpp:112:6:void DCSystem::moveForword(uint8_t)	16	static
+DCMotor.cpp:120:6:void DCSystem::moveBackword(uint8_t)	16	static
+DCMotor.cpp:127:6:void DCSystem::turnLeft(uint8_t)	16	static
+DCMotor.cpp:132:6:void DCSystem::turnRight(uint8_t)	16	static
+DCMotor.cpp:138:6:void DCSystem::stop()	16	static
+DCMotor.cpp:149:7:STATE DCSystem::getState()	16	static
+DCMotor.cpp:153:6:void DCSystem::increaseSpeed(uint8_t)	16	static
+DCMotor.cpp:158:6:void DCSystem::decreaseSpeed(uint8_t)	16	static
+DCMotor.cpp:163:9:uint8_t DCSystem::getSpeed()	16	static
+DCMotor.cpp:167:6:void DCSystem::set_Fdis(uint8_t)	16	static
+DCMotor.cpp:170:6:void DCSystem::set_Ldis(uint8_t)	16	static
+DCMotor.cpp:173:6:void DCSystem::set_Rdis(uint8_t)	16	static
+DCMotor.cpp:177:6:void DCSystem::set_encoders(uint32_t*, uint32_t*)	24	static
+DCMotor.cpp:181:10:uint16_t DCSystem::advance(uint16_t, uint8_t*, uint8_t*)	56	static
+DCMotor.cpp:226:10:uint16_t DCSystem::returnBy(uint16_t)	40	static
+DCMotor.cpp:257:7:float DCSystem::turnBy(int)	32	static
+DCMotor.cpp:388:7:float DCSystem::turnBy2(int)	40	static
+DCMotor.cpp:444:5:int DCSystem::map(int, int, int, int, int)	24	static
+DCMotor.cpp:448:6:void DCSystem::setMPU(MPU6050*)	16	static
+DCMotor.cpp:451:6:void DCSystem::setTIM(TIM_HandleTypeDef*)	16	static
